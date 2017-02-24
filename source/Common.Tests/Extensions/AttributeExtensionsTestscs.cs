@@ -1,0 +1,44 @@
+﻿using System.ComponentModel;
+using Naftan.Infrastructure.Common.Extensions;
+using NUnit.Framework;
+
+namespace Naftan.Infrastructure.Common.Tests.Extensions
+{
+    [System.ComponentModel.Description("IsClass")]
+    public class ClassWithAttribute
+    {
+        [DisplayName("IsProperty")]
+        public string PropertyWithAttribute { get; set; }
+    }
+
+    public class AttributeExtensionsTestscs
+    {
+        private ClassWithAttribute Object;
+
+        [SetUp]
+        public void SetUp()
+        {
+            Object = new ClassWithAttribute();
+        }
+
+        [Test]
+        public void GetAttributeReturnFirstAttribute()
+        {
+           var classDisplayAttribute =  Object.GetType().GetAttribute<DisplayNameAttribute>();
+           var classDescriptionAttribute = Object.GetType().GetAttribute<System.ComponentModel.DescriptionAttribute>();
+
+           Assert.IsNull(classDisplayAttribute);
+           Assert.IsNotNull(classDescriptionAttribute);
+        }
+
+        [Test]
+        public void ContainsAttributeTest()
+        {
+            var prop = Object.GetType().GetProperty("PropertyWithAttribute");
+            Assert.IsTrue(prop.ContainsAttribute<DisplayNameAttribute>());
+            Assert.IsFalse(prop.ContainsAttribute<System.ComponentModel.DescriptionAttribute>());
+        }
+
+
+    }
+}

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7D628DED-C95E-40E9-8248-F9E8285CD2F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{73B1BFEF-A397-4963-B4C3-46310C6F125B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuspec", ".nuspec", "{C6A569B9-DEA5-4F67-ACF3-3324EF03E391}"
+	ProjectSection(SolutionItems) = preProject
+		source\Common\Common.nuspec = source\Common\Common.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "source\Common\Common.csproj", "{BD9BFCBF-3C20-4939-8DB9-E8C7CCFCCC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Tests", "source\Common.Tests\Common.Tests.csproj", "{993CA611-6659-48B0-A67D-E54482CE5E9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9BFCBF-3C20-4939-8DB9-E8C7CCFCCC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9BFCBF-3C20-4939-8DB9-E8C7CCFCCC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9BFCBF-3C20-4939-8DB9-E8C7CCFCCC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9BFCBF-3C20-4939-8DB9-E8C7CCFCCC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993CA611-6659-48B0-A67D-E54482CE5E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993CA611-6659-48B0-A67D-E54482CE5E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993CA611-6659-48B0-A67D-E54482CE5E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993CA611-6659-48B0-A67D-E54482CE5E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD9BFCBF-3C20-4939-8DB9-E8C7CCFCCC93} = {7D628DED-C95E-40E9-8248-F9E8285CD2F3}
+		{993CA611-6659-48B0-A67D-E54482CE5E9F} = {7D628DED-C95E-40E9-8248-F9E8285CD2F3}
+	EndGlobalSection
+EndGlobal

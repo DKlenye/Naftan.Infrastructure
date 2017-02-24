@@ -1,0 +1,1 @@
+Nuget.exe pack ..\source\Common\Common.csproj

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Naftan.Infrastructure.Domain</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Кленье Д.Н.</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/DKlenye/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Naftan.Infrastructure.Domain</description>
+    <releaseNotes>Domain base classes</releaseNotes>
+    <copyright>Copyright "Naftan" 2017</copyright>
+    <tags></tags>
+  </metadata>
+</package>

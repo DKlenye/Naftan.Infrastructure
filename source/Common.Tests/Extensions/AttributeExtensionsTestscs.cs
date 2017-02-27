@@ -35,8 +35,8 @@ namespace Naftan.Infrastructure.Common.Tests.Extensions
         public void ContainsAttributeTest()
         {
             var prop = Object.GetType().GetProperty("PropertyWithAttribute");
-            Assert.IsTrue(prop.ContainsAttribute<DisplayNameAttribute>());
-            Assert.IsFalse(prop.ContainsAttribute<System.ComponentModel.DescriptionAttribute>());
+            Assert.IsTrue(prop.HasAttribute<DisplayNameAttribute>());
+            Assert.IsFalse(prop.HasAttribute<System.ComponentModel.DescriptionAttribute>());
         }
 
 

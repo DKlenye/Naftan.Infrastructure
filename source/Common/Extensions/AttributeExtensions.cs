@@ -18,7 +18,7 @@ namespace Naftan.Infrastructure.Common.Extensions
             return attributeProvider.GetAttributes<T>(inherit).SingleOrDefault();
         }
 
-        public static bool ContainsAttribute<T>(this ICustomAttributeProvider attributeProvider, bool inherit = true)
+        public static bool HasAttribute<T>(this ICustomAttributeProvider attributeProvider, bool inherit = true)
             where T : Attribute
         {
             return attributeProvider.GetAttributes<T>(inherit).Any();

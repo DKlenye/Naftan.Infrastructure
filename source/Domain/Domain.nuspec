@@ -3,7 +3,7 @@
   <metadata>
     <id>Naftan.Infrastructure.Domain</id>
     <version>$version$</version>
-    <title>$title$</title>
+    <title>Naftan.Infrastructure.Domain</title>
     <authors>Кленье Д.Н.</authors>
     <owners>$author$</owners>
     <projectUrl>https://github.com/DKlenye/</projectUrl>

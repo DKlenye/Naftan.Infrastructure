@@ -11,7 +11,7 @@ namespace Naftan.Infrastructure.Common.Tests.Extensions
         public string PropertyWithAttribute { get; set; }
     }
 
-    public class AttributeExtensionsTestscs
+    public class AttributeExtensionsTests
     {
         private ClassWithAttribute Object;
 

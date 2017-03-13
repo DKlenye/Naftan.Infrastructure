@@ -1,7 +1,6 @@
 ﻿using System.Linq;
 using Naftan.Infrastructure.Common.Extensions;
 using NUnit.Framework;
-using NUnit.Framework.Internal;
 
 namespace Naftan.Infrastructure.Common.Tests.Extensions
 {

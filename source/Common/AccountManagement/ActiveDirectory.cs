@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Naftan.Infrastructure.Common.AccountManagement
 {
-    public class ActiveDirectory
+    public static class ActiveDirectory
     {
         private const string NaftanDomain = "lan.naftan.by";
         private const string PolymirDomain = "POLYMIR.NET";

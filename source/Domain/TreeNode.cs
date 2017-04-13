@@ -42,6 +42,9 @@ namespace Naftan.Infrastructure.Domain
             get { return descendants; }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         protected T This
         {
             get { return (T)this; }

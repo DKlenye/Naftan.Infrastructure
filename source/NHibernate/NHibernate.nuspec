@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Naftan.Infrastructure.NHibernate</id>
+    <version>$version$</version>
+    <title>Naftan.Infrastructure.NHibernate</title>
+    <authors>Кленье Д.Н.</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/DKlenye/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Naftan.Infrastructure.NHibernate</description>
+    <releaseNotes>NHibernate base classes</releaseNotes>
+    <copyright>Copyright "Naftan" 2017</copyright>
+    <tags></tags>
+  </metadata>
+</package>

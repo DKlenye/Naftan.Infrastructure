@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Naftan.Infrastructure.Common</id>
+    <id>Naftan.Infrastructure.NHibernate.Conventions</id>
     <version>$version$</version>
-    <title>Naftan.Infrastructure.Common</title>
+    <title>Naftan.Infrastructure.NHibernate.Conventions</title>
     <authors>Кленье Д.Н.</authors>
     <owners>$author$</owners>
     <projectUrl>https://github.com/DKlenye/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Naftan.Infrastructure.Common</description>
-    <releaseNotes>Common classes and extensions</releaseNotes>
+    <description>Naftan.Infrastructure.NHibernate.Conventions</description>
+    <releaseNotes>Conventions for NHibernateAutomapping</releaseNotes>
     <copyright>Copyright "Naftan" 2017</copyright>
     <tags></tags>
   </metadata>

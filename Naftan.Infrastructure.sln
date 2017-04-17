@@ -16,6 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuspec", ".nuspec", "{C6A5
 	ProjectSection(SolutionItems) = preProject
 		source\Common\Common.nuspec = source\Common\Common.nuspec
 		source\Domain\Domain.nuspec = source\Domain\Domain.nuspec
+		source\NHibernate\NHibernate.nuspec = source\NHibernate\NHibernate.nuspec
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "source\Common\Common.csproj", "{BD9BFCBF-3C20-4939-8DB9-E8C7CCFCCC93}"

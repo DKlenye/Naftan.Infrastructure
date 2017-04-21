@@ -7,8 +7,8 @@
     <ProjectGuid>{D26A256B-F218-47D7-A309-11FAD6A88158}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Domain.Tests</RootNamespace>
-    <AssemblyName>Domain.Tests</AssemblyName>
+    <RootNamespace>Naftan.Infrastructure.Domain.Tests</RootNamespace>
+    <AssemblyName>Naftan.Infrastructure.Domain.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>

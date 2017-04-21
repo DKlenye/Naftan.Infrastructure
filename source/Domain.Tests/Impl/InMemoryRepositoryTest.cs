@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Naftan.Infrastructure.Domain;
 using Naftan.Infrastructure.Domain.Impl;
 using NUnit.Framework;
 
-namespace Domain.Tests.Impl
+namespace Naftan.Infrastructure.Domain.Tests.Impl
 {
     public class TestEntity : IEntity
     {

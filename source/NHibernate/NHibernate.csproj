@@ -61,6 +61,7 @@
     <Compile Include="PerRequestSessionProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionProvider.cs" />
+    <Compile Include="TreeNodeMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="NHibernate.nuspec" />

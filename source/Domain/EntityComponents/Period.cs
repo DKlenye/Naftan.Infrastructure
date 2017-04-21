@@ -3,7 +3,7 @@
     /// <summary>
     /// Отчётный период
     /// </summary>
-    public class Period
+    public class Period:IEntityComponent
     {
         /// <summary>
         /// период в формате yyyymm

@@ -21,7 +21,7 @@ namespace Naftan.Infrastructure.NHibernate
             get
             {
                 if (_session==null)
-                    _session = _sessionFactory.GetCurrentSession();
+                    _session = _sessionFactory.OpenSession();
                 return _session;
             }
         }

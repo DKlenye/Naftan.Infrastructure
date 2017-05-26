@@ -1,10 +1,15 @@
-﻿namespace Naftan.Infrastructure.Domain.EntityComponents
+﻿using System;
+
+namespace Naftan.Infrastructure.Domain.EntityComponents
 {
     /// <summary>
     /// Отчётный период
     /// </summary>
     public class Period:IEntityComponent
     {
+        [Obsolete("ORM Required")]
+        protected Period() { }
+
         /// <summary>
         /// период в формате yyyymm
         /// </summary>

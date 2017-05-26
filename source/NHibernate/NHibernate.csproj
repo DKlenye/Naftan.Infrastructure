@@ -56,12 +56,13 @@
     <Compile Include="AutomappingConfiguration.cs" />
     <Compile Include="INHibernateInitializer.cs" />
     <Compile Include="IsessionProvider.cs" />
+    <Compile Include="Mappings\TreeNodeMappingOverride.cs" />
     <Compile Include="NHibernateRepository.cs" />
     <Compile Include="NHibernateUnitOfWork.cs" />
     <Compile Include="PerRequestSessionProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionProvider.cs" />
-    <Compile Include="TreeNodeMap.cs" />
+    <Compile Include="Mappings\TreeNodeMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="NHibernate.nuspec" />

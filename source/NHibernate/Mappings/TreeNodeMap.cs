@@ -1,7 +1,7 @@
 ﻿using FluentNHibernate.Mapping;
 using Naftan.Infrastructure.Domain;
 
-namespace Naftan.Infrastructure.NHibernate
+namespace Naftan.Infrastructure.NHibernate.Mappings
 {
     /// <summary>
     /// 
